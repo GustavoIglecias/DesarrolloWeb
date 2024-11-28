@@ -1,0 +1,108 @@
+:root {
+    --blanco: #ffffff;
+    --negro: #212121;
+    --amarillo: #FFC107;
+
+}
+
+html {
+    font-size: 62.5%;
+
+
+}
+
+body {
+    font-size: 16px;
+    /* 1rem = 10px */
+}
+
+.textodefault {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.titulo {
+    color: var(--negro);
+    text-align: center;
+    font-size: 3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+.titulo2 {
+    font-size: 1.5rem;
+    color: var(--amarillo);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+
+
+}
+
+.colordesarrollo {
+    background-color: antiquewhite;
+}
+
+.text {
+    width: 120rem;
+    margin: 0 auto;
+
+
+}
+
+.nav-bg {
+    background-color: greenyellow;
+
+}
+
+.navegacion-principal {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (min-width: 768) {
+    .navegacion-principal {
+        flex-direction: row;
+    }
+
+
+}
+
+.navegacion-principal a {
+    font-size: 3rem;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+
+}
+
+.navegacion-principal a:hover {
+    background-color: aqua;
+    color: black;
+}
+
+@media (min-width: 46px) {
+
+    body {
+        background-color: grey;
+    }
+
+    ;
+}
+
+.hero {
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    padding: 25px;
+    border: 5px solid red;
+
+}
